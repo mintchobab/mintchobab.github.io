@@ -15,8 +15,5 @@ main:
 
 author_profile: true
 sidebar:
-  nav : "sidebar"
+  nav : "main"
 
-sidebar:
-  - title: "타이틀 제목"
-    text: "제목1"

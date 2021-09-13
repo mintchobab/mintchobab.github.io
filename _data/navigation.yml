@@ -11,6 +11,12 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+# sidebar
+
+author_profile: true
+sidebar:
+  nav : "sidebar"
+
 sidebar:
   - title: "타이틀 제목"
     text: "제목1"

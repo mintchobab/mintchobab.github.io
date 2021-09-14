@@ -10,10 +10,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-# sidebar
-
-author_profile: true
-sidebar:
-  nav : "main"
-

@@ -7,6 +7,9 @@ categories:
 tags:
   - [Blog, jekyll, Github, Git]
 
+sidebar:
+  nav: "test"
+
 toc: true
 toc_sticky: true
 

@@ -1,5 +1,5 @@
 ---
-title: "Android Basic"
+title: "안드로이드 기초"
 layout: archive
 permalink: categories/android-basic
 author_profile: true

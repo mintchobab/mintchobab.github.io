@@ -10,3 +10,9 @@ sidebar_main_custom: true
 
 {% assign posts = site.categories['Unity Basic'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+
+
+
+
+==============================================================
+title : 카테고리의 이름, 카테고리를 눌렀을 때의 제목을 표시함

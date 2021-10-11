@@ -25,23 +25,53 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">Android</span>
+
+        <!-- 유니티 -->
+        <span class="nav__sub-title">Unity</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Android Basic" %}
-                        <li><a href="/categories/android-basic" class="">안드로이드 기초 ({{category[1].size}})</a></li>
+                    {% if category[0] == "Unity Basic" %}
+                        <li><a href="/categories/unity-basic" class="">유니티 기초({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
 
-            <span class="nav__sub-title">Etc</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Git" %}
-                        <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                    {% if category[0] == "Unity Component" %}
+                        <li><a href="/categories/unity-component" class="">컴포넌트({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
+
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Unity Make Practice" %}
+                        <li><a href="/categories/unity-make-practice" class="">기능구현({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+
+        <!-- 안드로이드 -->
+        <span class="nav__sub-title">Android</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Android Basic" %}
+                        <li><a href="/categories/android-basic" class="">안드로이드 기초({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+        <!-- ETC -->
+        <span class="nav__sub-title">Etc</span>
+        <ul>
+            {% for category in site.categories %}
+                {% if category[0] == "Git" %}
+                    <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
 
       </li>
   </ul>

@@ -2,8 +2,8 @@
 main:
   - title: "Home"
     url: /index.html
-  - title: "Sample Posts"
-    url: /year-archive/
+  - title: "Category"
+    url: /categories/
 
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
@@ -13,9 +13,3 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-test:
-  - title: "Test"
-    children:
-    - title: "This is a test title"
-      url: /

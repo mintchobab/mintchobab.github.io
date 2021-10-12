@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2021-10-03
-last_modified_at: 2021-10-03
+date: 2021-10-11
+last_modified_at: 2021-10-11
 ---
 
 > 목표 : 오브젝트 높이를 구해보자!

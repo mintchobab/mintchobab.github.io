@@ -1,5 +1,5 @@
 ---
-title: "[Unity] 태그를 스크립트로 만들어보자"
+title: "[Unity] 태그를 스크립트로 추가해보자"
 
 categories:
   - Unity Make Practice
@@ -23,7 +23,7 @@ last_modified_at: 2021-10-18
 이번에 변경할 `Tag`도 Project Settings의 `Tag and Layers`라는 탭으로 들어가면 확인할 수 있다.
 
 <p align="center">
-  <img src="/assets/images/unity/make practice/tag auto create/1.jpg" title="그림 1" />
+  <img src="/assets/images/unity/make practice/tag auto create/1.JPG" title="그림 1" />
 </p>
 
 <br>
@@ -31,7 +31,7 @@ last_modified_at: 2021-10-18
 Project Settings에서 정의된 값들은 유니티 프로젝트 폴더의 `ProjectSettings`에 저장되어 있다. 해당 폴더는 프로젝트를 처음 생성할 때 자동으로 생성되므로 따로 추가할 필요는 없다.
 
 <p align="center">
-  <img src="/assets/images/unity/make practice/tag auto create/2.jpg" title="그림 2" />
+  <img src="/assets/images/unity/make practice/tag auto create/2.JPG" title="그림 2" />
 </p>
 
 <br>
@@ -39,7 +39,7 @@ Project Settings에서 정의된 값들은 유니티 프로젝트 폴더의 `Pro
 폴더 안으로 들어가면 여러가지 ~.asset 파일들이 있는데 `TagManager.asset` 파일을 열어보면 해당 프로젝트에 정의된 Tag와 Layer들을 확인할 수 있다. 지금은 추가한 Tag나 Layer가 없기 때문에 기본상태이다.
 
 <p align="center">
-  <img src="/assets/images/unity/make practice/tag auto create/3.jpg" title="그림 3" />
+  <img src="/assets/images/unity/make practice/tag auto create/3.JPG" title="그림 3" />
 </p>
 
 <br>

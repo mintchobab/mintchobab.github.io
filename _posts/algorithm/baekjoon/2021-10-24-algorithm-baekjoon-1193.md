@@ -1,5 +1,5 @@
 ---
-title: "[Algorithm] 백준 1193번 : 분수찾기 C# 문제풀이"
+title: "백준 1193번 : 분수찾기 C# 문제풀이"
 
 categories:
   - Algorithm Baekjoon
@@ -18,7 +18,7 @@ last_modified_at: 2021-10-24
 [문제링크](https://www.acmicpc.net/problem/1193)
 
 <p align="center">
-  <img src="/assets/images/algorithm/baekjoon/1193-1.jpg" title="그림 2" />
+  <img src="/assets/images/algorithm/baekjoon/1193-1.JPG" title="그림 1" />
 </p>
 
 <br>
@@ -30,7 +30,7 @@ last_modified_at: 2021-10-24
 문제에 적힌 순서를 따라가다보면 규칙을 발견할 수 있다. 아래 그림과 같이 대각선 방향으로 순서가 정해지는데, 홀수번째 대각선은 분자가 1씩증가 분모는 1씩 감소, 짝수번째 대각선은 분자가 1씩감소 분모는 1씩 증가한다. 따라서 입력받는 숫자가 몇번째 대각선에 포함되는지와 해당 대각선에서 몇번째에 위치한 값인지만 알 수 있다면 결과를 출력할 수 있다.
 
 <p align="center">
-  <img src="/assets/images/algorithm/baekjoon/1193-2.jpg" title="그림 2" />
+  <img src="/assets/images/algorithm/baekjoon/1193-2.JPG" title="그림 2" />
 </p>
 
 <br>

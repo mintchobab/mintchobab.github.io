@@ -69,7 +69,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Algorithm Baekjoon" %}
-                        <li><a href="/categories/android-basic" class="">백준({{category[1].size}})</a></li>
+                        <li><a href="/categories/algorithm-baekjoon" class="">백준({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -80,7 +80,7 @@
         <ul>
             {% for category in site.categories %}
                 {% if category[0] == "Git" %}
-                    <li><a href="/categories/git" class="">Git ({{category[1].size}})</a></li>
+                    <li><a href="/categories/git" class="">Git({{category[1].size}})</a></li>
                 {% endif %}
             {% endfor %}
         </ul>
